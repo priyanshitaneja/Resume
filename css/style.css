@@ -1,0 +1,265 @@
+/* *{
+	margin: 0;
+	padding: 0;
+}
+*/ /*Make all margins and paddings 0*/
+
+/* CSS VARIABLES */
+
+
+body{
+	background-color: #fff;
+	color: #283937;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.5em;
+	word-spacing: 0.5em;
+	padding: 0px 20px;
+}
+
+a{
+	color: #fff;
+}
+
+
+a:hover{
+	color: black;
+	background:white;
+	text-decoration: underline;
+}
+
+a:visited{
+
+}
+
+a:active{
+	color: #54C1B7;
+}
+
+.heading:hover {
+	background-color: #54C1B7;
+	color: white;
+	text-decoration: underline;
+}
+
+.button:hover {
+	background-color: black;
+	color: #fff;
+}
+
+.clr{
+	clear: both;
+}
+
+.container{
+	overflow: scroll;
+	align-self: center;
+	align-items: center;
+	width: 80%;
+	margin: auto;
+}
+
+.button {
+	background-color: #54C1B7;
+	color: black;
+	border: none;
+	padding: 5px 10px;
+	margin: auto;
+}
+
+.wrapper{
+	width: 80%;
+	margin: auto;
+
+}
+
+.heading {
+	color: #000;
+	text-decoration: none;
+}
+
+h1{
+	margin-top:0px;
+	font-family:'Rockwell-Extra-Bold';
+}
+
+h3{
+	text-align: center;
+	color: #5F5D5D;
+}
+
+h5{
+	color: #54C1B7;
+}
+
+.box-1{
+	background-color: #E7FFFA;
+	color: #283937;
+/*	border: 2px solid darkblue; */
+	padding: 10px;
+	margin: 10px 0px;
+}
+
+.box-11{
+	line-height: 1.8em;
+	background-color: #E7FFFA;
+	color: #283937;
+/*	border: 2px solid darkblue; */
+	padding: 10px;
+	margin: 10px 0px;
+}
+
+#main-header {
+	background-color: #54C1B7 ;
+	color: #000;
+	font-family: serif;
+	text-align: center;
+	height: 70px;
+	margin-top:0px;
+	padding-top: 30px;
+	border-radius: 3px;
+	width: 80%;
+	margin: auto;
+}
+
+.navbar {
+	background-color: #333;
+	width: 70%;
+	margin: auto;
+	line-height: 1.5em;
+	text-align: center;
+	word-spacing: 0.05em;
+	border-radius: 3px;
+	margin-top: -30px;
+	padding: 1px 0px;
+}
+
+.navbar ul{
+	padding: 0px 20px;
+	list-style: none;
+
+}
+
+.navbar li{
+	display: inline;
+	padding: 0 15px;
+}
+
+.navbar a{
+	text-decoration: none;
+}
+
+.feedback-form{
+	padding: 10px;
+	width: 80%;
+	margin: auto;
+}
+
+/*
+.feedback-form title{
+	text-align: center;
+}
+*/
+
+.feedback-form.form-group{
+	padding-bottom: 10px;
+}
+
+.feedback-form label{
+	display: block;
+}
+
+.feedback-form input[type="text"], .feedback-form textarea {
+	padding: 3px;
+	width: 100%;
+}
+
+/*
+Applies only for button inside feedback for, so changing it to. button so these can be applied to any button in whole file)
+
+.feedback-form input[type="submit"] {
+	background-color: #54C1B7;
+	color: black;
+	border: none;
+	padding: 5px 10px;
+}
+*/
+
+.fix-me {
+	position: fixed;
+	top:580px;
+	right: 0px;
+	text-decoration: none;
+}
+/*
+.container-1 {
+	display: flex;
+	flex-direction: column;
+	width:40%;
+	align-self: left;
+}
+
+.container-2{
+	display: flex;
+	flex-direction: column;
+	align-self: right;
+	width: 60%;
+}
+
+.container-3{
+
+}
+
+.container-4{
+
+}
+*/
+
+#feedback-header {
+	background-color: #54C1B7 ;
+	color: #000;
+	font-family: serif;
+	text-align: center;
+	height: 70px;
+	margin-top:0px;
+	padding-top: 30px;
+	border-radius: 3px;
+	width:80%;
+	margin: auto;
+}
+
+.feedback-container{
+	overflow: scroll;
+	align-self: center;
+	align-items: center;
+	width: 80%;
+	margin: auto;
+}
+
+footer{
+	background-color: #54C1B7 ;
+	color: #000;
+	font-family: serif;
+	text-align: center;
+	height: 22px;
+	margin: 5px 0;
+	padding: 5px 0;
+	border-radius: 3px;
+}
+
+@media(max-width: 768px) {
+	#main-header,
+	.wrapper,
+	.navbar,
+	.navbar li,
+	.container-1,
+	.container-2,
+	.container-3,
+	.container-4
+	{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+}
